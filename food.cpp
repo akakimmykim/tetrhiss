@@ -6,10 +6,8 @@
 #include <cstdlib>
 #include <ctime>
 
-#ifndef FoodDef
-#define FoodDef
-	#include "snake.h"
-	#include "food.h"
+#include "snake.h"
+#include "food.h"
 
 Food::Food(){  //default constructor
 	xLocation = 0;
@@ -46,5 +44,3 @@ void Food::drawFood(Board& gBoard){		//draws a food piece on the board array
 	gBoard.editBoard(xLocation,yLocation,'F');
 	gBoard.drawBoard();
 }
-
-#endif

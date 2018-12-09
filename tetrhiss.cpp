@@ -1,11 +1,8 @@
 #include <iostream>
 #include <ncurses.h>
 #include <time.h>
-
-#ifndef FinDef
-#define FinDef
 	
-	#include "tetrhiss.h"
+#include "tetrhiss.h"
 
 int main(){
 	
@@ -55,5 +52,3 @@ int main(){
 	endwin();
 }
 
-
-#endif

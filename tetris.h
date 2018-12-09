@@ -1,5 +1,3 @@
-#ifndef TETDef
-#define TETDef
 
 class Tetris {
 private:
@@ -34,5 +32,3 @@ public:
 	void moveLeft(Snake&s, Board& gBoard);
 
 };
-
-#endif

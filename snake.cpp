@@ -4,10 +4,8 @@
 #include <sys/time.h>
 #include <sys/types.h>
 
-#ifndef SNAKESD
-#define SNAKESD
-	#include "snake.h"
-	#include "board.h" //uses the instance of a board as many arguments
+#include "snake.h"
+#include "board.h" //uses the instance of a board as many arguments
 
 #define MAXWAIT 170000
 #define FULL 4
@@ -198,5 +196,3 @@ int kbhit () {   //check if key is pressed (GOT FROM ONLINE)
 
   return 0;
 }
-
-#endif

@@ -4,10 +4,8 @@
 #include <sys/time.h>
 #include <sys/types.h>
 
-#ifndef TetrisDef
-#define TetrisDef
-	#include "snake.h"
-	#include "tetris.h"
+#include "snake.h"
+#include "tetris.h"
 
 #define MAXWAIT 200000
 #define FULL 4
@@ -184,4 +182,3 @@ void Tetris::moveLeft(Snake&s, Board& gBoard){
 	}
 }
 
-#endif	
