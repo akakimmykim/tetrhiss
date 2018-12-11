@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <sys/time.h>
 #include <sys/types.h>
+#include <cstdlib>
 
 #include "snake.h"
 #include "board.h" //uses the instance of a board as many arguments

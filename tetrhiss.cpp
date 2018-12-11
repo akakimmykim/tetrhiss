@@ -1,13 +1,14 @@
 #include <iostream>
 #include <ncurses.h>
 #include <time.h>
+#include <cstdlib>
 	
 #include "tetrhiss.h"
 
 int main(){
 	
 	
-	std::srand(time(nullptr)); //srand initializes a random sequence based on time
+	std::srand(time(NULL)); //srand initializes a random sequence based on time
 	
 	//begins ncurses programming
 	initscr(); 

@@ -23,6 +23,7 @@ tetris.o: tetris.cpp tetris.h
 	
 gameplay.o: gameplay.cpp gameplay.h
 	$(CC) $(CFLAGS) -c gameplay.cpp -lncurses
+	
 clean:
 	rm -rf *o make
 
